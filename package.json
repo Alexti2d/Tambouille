@@ -1,0 +1,11 @@
+{
+  "name": "tambouille",
+  "version": "1.0.0",
+  "scripts": {
+    "lintFront": "jshint ./frontend/src/main.js",
+    "lintBack": "jshint ./backend/src/index.ts"
+  },
+  "dependencies": {
+    "jshint": "^2.13.6"
+  }
+}

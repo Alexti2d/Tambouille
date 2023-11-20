@@ -1,0 +1,107 @@
+::selection {
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h3 {
+  color: rgb(156, 165, 177);
+}
+
+.card-img-top {
+  aspect-ratio: 16/9 !important;
+  object-fit: cover;
+}
+
+.back {
+  background-image: url(../img/default.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 60vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div .card-img {
+  aspect-ratio: 20/5 !important;
+  object-fit: cover;
+}
+
+.card {
+  padding: 0px !important;
+}
+
+.colonne:hover {
+  transform: scale(1.01);
+}
+
+.card-body {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.colonne {
+  width: 30%;
+  flex: 0 0 auto !important;
+  transition: 0.3s;
+}
+
+.content {
+  height: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none !important;
+}
+
+.card-body * {
+  text-decoration: none !important;
+  color: black;
+}
+
+nav {
+  position: fixed !important;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.btn-nav {
+  color: white;
+}
+
+nav div img {
+  aspect-ratio: 1/1;
+  height: 50px;
+}
+
+.logo {
+  font-size: 22px;
+  color: rgb(156, 165, 177);
+}
+
+.navbar-brand {
+  color: white !important ;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@media (max-width: 1200px) {
+  .colonne {
+    width: calc(50% - 25px) !important;
+  }
+}
+@media (max-width: 700px) {
+  .colonne {
+    width: calc(100% - 25px) !important;
+  }
+}
