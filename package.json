@@ -4,9 +4,13 @@
   "scripts": {
     "lintFront": "jshint ./frontend/src/main.js",
     "lintBack": "jshint ./backend/src/index.ts",
-    "test": "jshint ./frontend/src/main.js && jshint ./backend/src/index.ts"
+    "test": "jshint ./frontend/src/main.js && jshint ./backend/src/index.ts",
+    "build": "vite ./frontend/ build && tsup ./backend/src/index.ts --format cjs --clean"
   },
   "dependencies": {
-    "jshint": "^2.13.6"
+    "@vitejs/plugin-vue": "^4.5.2",
+    "jshint": "^2.13.6",
+    "tsup": "^8.0.1",
+    "vite": "^5.0.10"
   }
 }
