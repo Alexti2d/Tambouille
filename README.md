@@ -198,7 +198,7 @@ Pendant les etapes de l'intégration continue voici les commandes qui sont exéc
 
 
 ## CD
-Le livrable fournit est un 
+Le livrable fournit est un zip
 
 
 ## Deploiment Continue
