@@ -12,8 +12,8 @@ jobs:
 
     - name: Setup Node.js environment
       uses: actions/setup-node@v2
-        with:
-            node-version: 19
+      with:
+        node-version: 19
 
       - name: Install dependencies
         run: npm i
