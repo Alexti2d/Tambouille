@@ -5,7 +5,8 @@
     "lintFront": "jshint ./frontend/src/main.js",
     "lintBack": "jshint ./backend/src/index.ts",
     "test": "jshint ./frontend/src/main.js && jshint ./backend/src/index.ts",
-    "build": "vite build ./frontend/ && tsup ./backend/src/index.ts --format cjs --clean"
+    "build": "vite build ./frontend/ && tsup ./backend/src/index.ts --format cjs --clean",
+    "deploy": "echo deploiement"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
