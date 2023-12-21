@@ -20,6 +20,6 @@ jobs:
      - name: Build
        run: npm run build
      - name: Validate
-       run: npm run cumcumber
+       run: npm run cucumber
      - name: Deploy
        run: npm run deploy
