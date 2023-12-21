@@ -9,23 +9,17 @@ jobs:
    steps:
      - name: Checkout code
        uses: actions/checkout@v2
-
      - name: Setup Node.js environment
        uses: actions/setup-node@v2
        with:
           node-version: 19
-
      - name: Install dependencies
        run: npm i
-
      - name: Run tests
        run: npm test
-
      - name: Build
        run: npm run build
-
      - name: Validate
        run: npm run cumcumber
-
      - name: Deploy
        run: npm run deploy
