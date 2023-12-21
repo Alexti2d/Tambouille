@@ -179,3 +179,28 @@ API_KEY_OPENAI=
 
 Vous êtes libres de mettre les valeurs que vous souhaitez. Pour rappel, si vous avez une clef d'api d'un compte OpenAi qui vous permet d'effectuer des requêtes, vous pouvez renseigner la clef `API_KEY_OPENAI`.
 Autrement laissez la vide pour utiliser le mock, attention la clef **doit** exister tout de même !
+
+# CI/CD
+
+## CI
+Pendant les etapes de l'intégration continue voici les commandes qui sont exécuté
+<br/>
+<br/>
+
+**Back**
+- ```npm install && npm run build```
+
+**Front**
+- ```npm install && npm run build```
+
+**A la Racine**
+- ```npm i && npm run lintBack && npm run lintFront```
+
+
+## CD
+Le livrable fournit est un 
+
+
+## Deploiment Continue
+
+Pour créer un nouveau déploiement, il faut créer un nouveau tag avec le nom de version
