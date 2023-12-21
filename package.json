@@ -5,12 +5,20 @@
     "lintFront": "jshint ./frontend/src/main.js",
     "lintBack": "jshint ./backend/src/index.ts",
     "test": "jshint ./frontend/src/main.js && jshint ./backend/src/index.ts",
-    "build": "vite ./frontend/ build && tsup ./backend/src/index.ts --format cjs --clean"
+    "build": "vite build ./frontend/ && tsup ./backend/src/index.ts --format cjs --clean"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "jshint": "^2.13.6",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^4.24.0",
     "tsup": "^8.0.1",
-    "vite": "^5.0.10"
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vue-router": "^4.2.5"
   }
 }
